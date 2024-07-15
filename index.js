@@ -1,13 +1,15 @@
-alert('test');
+let x = "test";
+
+window.getElementByID('1').innerHTML = x;
 setTimeout(function(){
-    alert('\ttes')
+    x = "\ttes"
 }, 2000);
 setTimeout(function(){
-    alert('\tte')
+    x = "\tte"
 }, 2000);
 setTimeout(function(){
-    alert('\tt')
+    x = "\tt"
 }, 2000);
 setTimeout(function(){
-    alert('\t')
+    x = "\t"
 }, 2000);
